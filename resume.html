@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head> <!-- GREGORY H TOURVILLE -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Resumé - Greg Tourville</title>
+    <meta name="description" content="resume">
+    <meta name="keywords" content="C,C++,JavaScript,software,programmer,software developer,enthusiast,hobbyist,team duck,xigency,resume">
+    <meta name="author" content="Greg Tourville">
+    <script type="text/javascript">
+    function setPhoneNumber()
+    { var phoneNumber = 
+          ['(', '2', '2', '4', ')', ' ', '5', '5', '8', '-', '0', '6', '1', '1'];
+      var phoneField = document.getElementById("phone-number");
+      var phoneString = "";
+      for (var j = 0; j < phoneNumber.length; j++) { phoneString += phoneNumber[j]; }
+      if (phoneField) { phoneField.innerHTML = phoneString; }
+    } function setEmailAddress()
+    { var emailAddress;
+      var emailSymbol = document.getElementById("replace-email-sign");
+      var emailLink = document.getElementById("email-link");      
+      if (emailSymbol) { emailSymbol.innerHTML = "@"; }
+      if (emailLink) emailAddress = emailLink.innerText;
+      if (emailAddress === undefined && emailLink) {
+        emailAddress = emailLink.textContent; }
+      if (emailLink) { emailLink.href = "MAILTO:" + emailAddress; }
+      setPhoneNumber(); }
+    </script>
+    <style type="text/css">
+      body { line-height: 120%; color: #320000; font-family: georgia, serif; font-size: 0.9em; background-color: #FFFFFF; -webkit-text-size-adjust:none; }
+      #title { font-size: 1.75em; margin: 0 auto; margin-top: 10px; position: relative; width: 380px; text-align: center; 
+        font-family: "georgia", "times new roman", times, serif; }
+      #email { font-size: 1em; font-weight: bold; float: right; padding-top: 2px; width: 205px; text-align: right; }
+      #link { float: left; font-weight: bold; padding-top: /*14px*/ 2px; margin-left: 0px; width: 120px; }
+      #page-container { width: 778px; margin: 0 auto; border: 1px solid #320000; padding: 0 10px 10px 10px; background-image: url("watermark-lite.png"); /*background-size: cover;*/ }
+      #topbar { background-color: #FFFFFF; background-image: url("watermark.png"); top: 0; height: 48px; 
+        padding-top: 10px; padding-left: 10px; padding-right: 10px; margin-left: -10px; margin-right: -10px; }
+      a:link { text-decoration: none; color: #320000; }
+      a:visited { text-decoration: none; color: #320000; }
+      a:hover { text-decoration: none; color: #320000; }
+      a:active { text-decoration: none; color: #320000; }
+      h3 { margin: 0; text-align: center; line-height: 100%; background-image: url("watermark.png"); }
+      h4 { margin: 0; display: inline; line-height: 100%;}
+      h5 { margin: 0; }
+      hr { margin: 0; }
+      ul { list-style: none; padding-left: 1em; margin: 0; }
+      .pad-bottom { margin-bottom: 6px; }
+      .right { float: right; }
+    </style>
+  </head>
+  <body onLoad="setEmailAddress();">
+    <div id="page-container">
+      <div id="topbar">
+        <div id="link"><a href="http://www.brainplex.net">http://brainplex.net/</a><br/>
+        <a href="http://greg.team-duck.com/resume.pdf">Resume - PDF</a></div>
+        <div id="email"><a href="MAILTO:" id="email-link">greg.tour<span id="replace-email-sign">(at)</span>gmail.com</a><br/>
+        1 <span id="phone-number">(000) 000-0000</span></div>
+        <div id="title">GREGORY TOURVILLE</div><br/>
+      </div>
+
+    <!-- ================================================================ -->
+      <hr/><h3>EDUCATION</h3><hr class="pad-bottom"/>
+    <!-- ================================================================ -->
+      <h4>B.S. Computer Science</h4> &ndash; Rose-Hulman Institute of Technology
+      <div class="right">Terre Haute, IN</div> <br/>
+      <div class="right" style="font-style: italic;">Completed May 2014</div> 
+
+      <h4>Relevant Coursework: </h4><br/>
+      <div style="padding-left: 1em;">
+        Software Design and Development, Data Structures and Algorithms, Theory of Computation, Compiler Construction,
+        Programming Language Concepts, Algorithm Analysis, Artificial Intelligence, Neural Networks, 
+        Speech Articulation and Acoustics, Speech Recognition, Cryptography, Abstract Algebra, Topics in Discrete Math and Graph Theory<br/>
+      </div>
+      <br/>
+
+    <!-- ================================================================ -->
+      <hr/><h3>EXPERIENCE</h3><hr class="pad-bottom"/>
+    <!-- ================================================================ -->
+
+      <h4>Software Engineering Developer</h4> &ndash; Green Hills Software, Santa Barbara, CA
+      <div class="right">July 2014</div><br/><!--<br/>-->
+
+      <h4>Software Developer</h4> &ndash; Fog Creek Software, New York City
+      <div class="right">June 2012</div><br/><!--<br/>-->
+
+      <h4>Computer Science Researcher</h4> &ndash; University of Aizu &ndash; CLR Phonetics Lab
+      <div class="right">May 2011 &ndash; November 2011</div><br/>
+      Aizuwakamatsu, Japan
+      <ul>
+        <li>- Researched linguistics in order to teach pronunciation.<br/>
+        <li>- Developed a system to animate 3D speech movements in real-time for English speech using ultrasound images.<br/>
+        <li>- Used OpenCV and C++ for image processing and Blender and Python for 3D animation.<br/>
+      </ul>
+      <!--<br/>-->
+
+      <h4>Computer Programmer</h4> &ndash; eV Interactive LLC
+      <div class="right">2007, 2008, 2009, March 2011 &ndash; May 2011</div><br/>
+      Arlington Heights and Palatine, IL
+      <ul>
+        <li>- Credited in four published titles: Ride! Carnival Tycoon, John Deere: Drive Green, Shimano Xtreme Fishing,
+        and Remington Super Slam Hunting Alaska.<br/>
+        <li>- Worked on problems in physics simulation, artificial intelligence, procedural graphics, and game programming. <br/>
+        <li>- Developed a skeletal animation system in C++ for the Nintendo Wii.<br/>
+        <li>- Migrated the graphics engine from DirectX to OpenGL for console ports.<br/>
+      </ul>
+      <!--<br/>-->
+
+      <h4>Software Engineering Intern</h4> &ndash; Rose-Hulman Ventures
+      <div class="right">September 2009 &ndash; August 2010</div><br/>
+      Terre Haute, IN
+      <ul>
+        <li>- Communicated with clients to write and test software and ensure standards compliance to RFCs.<br/>
+        <li>- Worked on a compiler targeting C from MIB files for embedded network applications using SNMP.<br/>
+      </ul>
+      <!--<br/>-->
+
+      <h4>Tutor</h4> &ndash; Homework Hotline
+      <div class="right">September 2009 &ndash; December 2010</div><br/>
+      Terre Haute, IN
+      <ul>
+        <li>- Assisted 6th through 12th grade students with math and science homework over the phone.<br/>
+        <li>- Helped Indiana students and other students from around the country.<br/>
+      </ul>
+      <br/>
+
+    <!-- ================================================================ -->
+      <hr/><h3>PROJECT WORK</h3><hr class="pad-bottom"/>
+    <!-- ================================================================ -->
+
+      <h4>Rose-Hulman Institute of Technology</h4>
+      <ul>
+        <li>- Researched techniques for porting large game engine source code to multithreaded architectures.
+        <li>- Developed a social media website similar to Facebook and MySpace using Java servlets on a team of four.<br/>
+        <li>- Wrote a minimal Java compiler targeting 16-bit MIPS with a team of two.<br/>
+        <li>- Created a content aggregation system for multiple social media websites on smart phones.<br/>
+        <li>- Created a website using MySQL as a backend database with a team of three.<br/>
+        <li>- Researched methods for applying natural language processing to searching text-based sources.<br/>
+      </ul>
+      <!--<br/>-->
+
+      <h4>Independent Project Work</h4>
+      <ul>
+        <li>- Developed the Team-Duck game engine for the PC, Sony PSP, and WebGL browser platforms.<br/>
+        <li>- Developed the Duck Programming Language <a href="http://ducklang.org">(www.ducklang.org)</a><br/>
+        <li>- See my GitHub page for code samples: <a href="http://github.com/gregtour">https://github.com/gregtour/</a><br/>
+      </ul>
+      <br/>
+    
+    <!-- ================================================================ -->
+      <hr/><h3>SKILLS</h3><hr class="pad-bottom"/>
+    <!-- ================================================================ -->
+      <ul>
+        <li>Proficient in C/C++, Java,  Python and JavaScript programming.<br/>
+        <li>Familiar with HTML, CSS, PHP, Lua, SVN, assembly, AJAX, SQL, Node.JS, OpenCV, OpenGL, OAUTH 2.0, <br/>
+        TCP/IP and UDP networking, embedded software development, and web development.<br/>
+      </ul>
+      <br/>
+
+    <!-- ================================================================ -->
+      <hr/><h3>HONORS AND AWARDS</h3><hr class="pad-bottom"/>
+    <!-- ================================================================ -->
+      <div style="float: left;">Theodore Paine Palmer Award</div>
+      <div style="float: right;">National Merit Scholar</div>
+      <div style="margin: 0 auto; position: relative; width: 420px; text-align: center;">Mathematical Contest in Modeling</div>
+    </div> <!-- page-container -->
+  </body>
+</html> 
