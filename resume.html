@@ -1,166 +1,175 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head> <!-- GREGORY H TOURVILLE -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Resumé - Greg Tourville</title>
-    <meta name="description" content="resume">
-    <meta name="keywords" content="C,C++,JavaScript,software,programmer,software developer,enthusiast,hobbyist,team duck,xigency,resume">
-    <meta name="author" content="Greg Tourville">
-    <script type="text/javascript">
-    function setPhoneNumber()
-    { var phoneNumber = 
-          ['(', '2', '2', '4', ')', ' ', '5', '5', '8', '-', '0', '6', '1', '1'];
-      var phoneField = document.getElementById("phone-number");
-      var phoneString = "";
-      for (var j = 0; j < phoneNumber.length; j++) { phoneString += phoneNumber[j]; }
-      if (phoneField) { phoneField.innerHTML = phoneString; }
-    } function setEmailAddress()
-    { var emailAddress;
-      var emailSymbol = document.getElementById("replace-email-sign");
-      var emailLink = document.getElementById("email-link");      
-      if (emailSymbol) { emailSymbol.innerHTML = "@"; }
-      if (emailLink) emailAddress = emailLink.innerText;
-      if (emailAddress === undefined && emailLink) {
-        emailAddress = emailLink.textContent; }
-      if (emailLink) { emailLink.href = "MAILTO:" + emailAddress; }
-      setPhoneNumber(); }
-    </script>
-    <style type="text/css">
-      body { line-height: 120%; color: #320000; font-family: georgia, serif; font-size: 0.9em; background-color: #FFFFFF; -webkit-text-size-adjust:none; }
-      #title { font-size: 1.75em; margin: 0 auto; margin-top: 10px; position: relative; width: 380px; text-align: center; 
-        font-family: "georgia", "times new roman", times, serif; }
-      #email { font-size: 1em; font-weight: bold; float: right; padding-top: 2px; width: 205px; text-align: right; }
-      #link { float: left; font-weight: bold; padding-top: /*14px*/ 2px; margin-left: 0px; width: 120px; }
-      #page-container { width: 778px; margin: 0 auto; border: 1px solid #320000; padding: 0 10px 10px 10px; background-image: url("watermark-lite.png"); }
-      #topbar { background-color: #FFFFFF; background-image: url("watermark.png"); top: 0; height: 48px; 
-        padding-top: 10px; padding-left: 10px; padding-right: 10px; margin-left: -10px; margin-right: -10px; }
-      a:link { text-decoration: none; color: #320000; }
-      a:visited { text-decoration: none; color: #320000; }
-      a:hover { text-decoration: none; color: #320000; }
-      a:active { text-decoration: none; color: #320000; }
-      h3 { margin: 0; text-align: center; line-height: 100%; background-image: url("watermark.png"); }
-      h4 { margin: 0; display: inline; line-height: 100%;}
-      h5 { margin: 0; }
-      hr { margin: 0; }
-      ul { list-style: none; padding-left: 1em; margin: 0; }
-      .pad-bottom { margin-bottom: 6px; }
-      .right { float: right; }
-    </style>
-  </head>
-  <body onLoad="setEmailAddress();">
-    <div id="page-container">
-      <div id="topbar">
-        <div id="link"><a href="http://www.brainplex.net">http://brainplex.net/</a><br/>
-        <a href="http://greg.team-duck.com/resume.pdf">Resume - PDF</a></div>
-        <div id="email"><a href="MAILTO:" id="email-link">greg.tour<span id="replace-email-sign">(at)</span>gmail.com</a><br/>
-        1 <span id="phone-number">(000) 000-0000</span></div>
-        <div id="title">GREGORY TOURVILLE</div><br/>
-      </div>
-
-    <!-- ================================================================ -->
-      <hr/><h3>EDUCATION</h3><hr class="pad-bottom"/>
-    <!-- ================================================================ -->
-      <h4>B.S. Computer Science</h4> &ndash; Rose-Hulman Institute of Technology
-      <div class="right">Terre Haute, IN</div> <br/>
-      <div class="right" style="font-style: italic;">Completed May 2014</div> 
-
-      <h4>Relevant Coursework: </h4><br/>
-      <div style="padding-left: 1em;">
-        Software Design and Development, Data Structures and Algorithms, Theory of Computation, Compiler Construction,
-        Programming Language Concepts, Algorithm Analysis, Artificial Intelligence, Neural Networks, 
-        Speech Articulation and Acoustics, Speech Recognition, Cryptography, Abstract Algebra, Topics in Discrete Math and Graph Theory<br/>
-      </div>
-      <br/>
-
-    <!-- ================================================================ -->
-      <hr/><h3>EXPERIENCE</h3><hr class="pad-bottom"/>
-    <!-- ================================================================ -->
-
-      <h4>Software Engineering Developer</h4> &ndash; Green Hills Software, Santa Barbara, CA
-      <div class="right">July 2014</div><br/><!--<br/>-->
-
-      <h4>Software Developer</h4> &ndash; Fog Creek Software, New York City
-      <div class="right">June 2012</div><br/><!--<br/>-->
-
-      <h4>Computer Science Researcher</h4> &ndash; University of Aizu &ndash; CLR Phonetics Lab
-      <div class="right">May 2011 &ndash; November 2011</div><br/>
-      Aizuwakamatsu, Japan
-      <ul>
-        <li>- Researched linguistics in order to teach pronunciation.<br/>
-        <li>- Developed a system to animate 3D speech movements in real-time for English speech using ultrasound images.<br/>
-        <li>- Used OpenCV and C++ for image processing and Blender and Python for 3D animation.<br/>
-      </ul>
-      <!--<br/>-->
-
-      <h4>Computer Programmer</h4> &ndash; eV Interactive LLC
-      <div class="right">2007, 2008, 2009, March 2011 &ndash; May 2011</div><br/>
-      Arlington Heights and Palatine, IL
-      <ul>
-        <li>- Credited in four published titles: Ride! Carnival Tycoon, John Deere: Drive Green, Shimano Xtreme Fishing,
-        and Remington Super Slam Hunting Alaska.<br/>
-        <li>- Worked on problems in physics simulation, artificial intelligence, procedural graphics, and game programming. <br/>
-        <li>- Developed a skeletal animation system in C++ for the Nintendo Wii.<br/>
-        <li>- Migrated the graphics engine from DirectX to OpenGL for console ports.<br/>
-      </ul>
-      <!--<br/>-->
-
-      <h4>Software Engineering Intern</h4> &ndash; Rose-Hulman Ventures
-      <div class="right">September 2009 &ndash; August 2010</div><br/>
-      Terre Haute, IN
-      <ul>
-        <li>- Communicated with clients to write and test software and ensure standards compliance to RFCs.<br/>
-        <li>- Worked on a compiler targeting C from MIB files for embedded network applications using SNMP.<br/>
-      </ul>
-      <!--<br/>-->
-
-      <h4>Tutor</h4> &ndash; Homework Hotline
-      <div class="right">September 2009 &ndash; December 2010</div><br/>
-      Terre Haute, IN
-      <ul>
-        <li>- Assisted 6th through 12th grade students with math and science homework over the phone.<br/>
-        <li>- Helped Indiana students and other students from around the country.<br/>
-      </ul>
-      <br/>
-
-    <!-- ================================================================ -->
-      <hr/><h3>PROJECT WORK</h3><hr class="pad-bottom"/>
-    <!-- ================================================================ -->
-
-      <h4>Rose-Hulman Institute of Technology</h4>
-      <ul>
-        <li>- Researched techniques for porting large game engine source code to multithreaded architectures.
-        <li>- Developed a social media website similar to Facebook and MySpace using Java servlets on a team of four.<br/>
-        <li>- Wrote a minimal Java compiler targeting 16-bit MIPS with a team of two.<br/>
-        <li>- Created a content aggregation system for multiple social media websites on smart phones.<br/>
-        <li>- Created a website using MySQL as a backend database with a team of three.<br/>
-        <li>- Researched methods for applying natural language processing to searching text-based sources.<br/>
-      </ul>
-      <!--<br/>-->
-
-      <h4>Independent Project Work</h4>
-      <ul>
-        <li>- Developed the Team-Duck game engine for the PC, Sony PSP, and WebGL browser platforms.<br/>
-        <li>- Developed the Duck Programming Language <a href="http://ducklang.org">(www.ducklang.org)</a><br/>
-        <li>- See my GitHub page for code samples: <a href="http://github.com/gregtour">https://github.com/gregtour/</a><br/>
-      </ul>
-      <br/>
-    
-    <!-- ================================================================ -->
-      <hr/><h3>SKILLS</h3><hr class="pad-bottom"/>
-    <!-- ================================================================ -->
-      <ul>
-        <li>Proficient in C/C++, Java,  Python and JavaScript programming.<br/>
-        <li>Familiar with HTML, CSS, PHP, Lua, SVN, assembly, AJAX, SQL, Node.JS, OpenCV, OpenGL, OAUTH 2.0, <br/>
-        TCP/IP and UDP networking, embedded software development, and web development.<br/>
-      </ul>
-      <br/>
-
-    <!-- ================================================================ -->
-      <hr/><h3>HONORS AND AWARDS</h3><hr class="pad-bottom"/>
-    <!-- ================================================================ -->
-      <div style="float: left;">Theodore Paine Palmer Award</div>
-      <div style="float: right;">National Merit Scholar</div>
-      <div style="margin: 0 auto; position: relative; width: 420px; text-align: center;">Mathematical Contest in Modeling</div>
-    </div> <!-- page-container -->
-  </body>
-</html> 
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Resumé - Greg Tourville</title>
+<meta name="description" content="resumé">
+<meta name="keywords" content="C,C++,C/C++,JavaScript,software,programmer,software developer,Greg,Tourville,enthusiast,hobbyist,team duck,drums,xigency,resume,high voltage">
+<meta name="author" content="Greg Tourville">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<script type="text/javascript">
+function setEmail(){var d,f,k;d=document.getElementById("email-url");f="fqdf-sntq?fl`hk-bnl";if(d)for(k=0;k<f.length;k++)d.href+=String.fromCharCode(f.charCodeAt(k)+1);}
+</script>
+<style type="text/css">
+body { line-height: 100%; color: #320000; font-family: lucida sans, times new roman, serif,georgia, serif; font-size: 1.0em; background-color: white; -webkit-text-size-adjust:none; }
+#title { font-size: 2em; margin: 0 auto; margin-top: 14px; margin-bottom: -4px; position: relative; width: 380px; text-align: center; 
+font-family: "georgia", "times new roman", times, serif; font-weight: normal; }
+#email { font-size: 1em; font-weight: normal; float: right; margin-top: -2px; width: 205px; text-align: right; padding: 0px; margin-bottom: -2px; }
+#link { float: left; font-weight: normal; margin-top: -2px; margin-left: 0px; width: 240px; padding: 0px; margin-bottom: -2px; }
+#page-container { width: 928px; margin: 0 auto; border: 1px solid black; padding: 10px 10px 10px 10px; background-image: 
+url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB4SURBVDhPpVFBCsAgDIsD//9fPbhFjITSnRpQmsTWWtv6gAJ2gTnnoUDv/URApketjTGWm1lMxETxh5ubjJUsXdxBzrULuPkXq1jUykPcHVTwsA21R0TuiDr5fYKbfGc8nGnE/QUfjiAt84Q7A1X3pOxG97mKvwC86SFl3aGbn6kAAAAASUVORK5CYII%3D");}
+#topbar { top: 0; height: 58px; width: 928px; padding-top: 6px; padding-left: 10px; padding-right: 10px; margin-left: -10px; margin-right: -10px; }
+a:link { text-decoration: none; color: #320000; }
+a:visited { text-decoration: none; color: #320000; }
+a:hover { text-decoration: none; color: #320000; }
+a:active { text-decoration: none; color: #320000; }
+h3 { margin: 0; text-align: center; line-height: 100%; }
+h4 { margin: 0; display: inline; line-height: 100%;}
+h5 { margin: 0; }
+hr { margin: 0; }
+ul { list-style: none; padding-left: 1em; margin: 0; }
+.spacer { width: 400px; height: 8px; }
+.pad-bottom { margin-bottom: 6px; }
+.right { float: right; text-align: right; font-style: italic; }
+.sup { font-size: 70%; vertical-align: top; }
+</style>
+</head>
+<body onLoad="setEmail();">
+<div id="page-container">
+<div id="topbar">
+<div id="link">
+<img alt="Address 1" style="height: 20px; margin: 0;" src="data:image/gif;base64,R0lGODlhwgAYAIABAAAAAP///yH5BAEKAAEALAAAAADCABgAAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqykoA0Mby89Y1YjM2vOy7zpP9AsFZylf0KYaNV+JmfCahomLUSjxMlxPnEisEe0PjqA7IdYGJ61UZ19a8zbimlUpbl7059h7PN1fXJDVGdQiDFDfThsVkB+mnlQQ3aTAkyKZmebnllwhKd/alh9fTGPSnNdjJ2XrqUvk6+5ZpJtZ3GmdreJcoy6kKC1HLI6wJLLpqh+rAm+rrKzWL/BVRTN07rcyKRhg5XO1KjXy8nbd9jM19SbzrXJqcZV7uae2ebr/Oviie5n2PnDFo+eQZXLZOnTR2WWg4Qxcw27g9E3eJSUbQ1T48ZbgqLoNXKOBCSdXoRWw4aaBGKAk56prz6KUSUqCg/ZkSyFanXCELhfrUk6HQoUSLGj2KNKnSpUybMiwAADs%3D"> 
+<br/>
+<img alt="Address 2" style="height: 20px; margin: 0;" src="data:image/gif;base64,R0lGODlh9gAYAIABAAAAAP///yH5BAEKAAEALAAAAAD2ABgAAAL+jI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNcogANHrtv+7+PhdkJJLzA8DlfC5hGocBYruUR1sYxerdtJFvF9ZHlEVxj5ZKQd69D3DOkalFz4uC6Pt+HqNJ+5J9aGNfjxVthHWMaFBab0iKilaOQXeWM5qXdySMHnJ8noOBdKmUk0JlW0tNU1NdeTJ8pWpeNqS3ZamVS6GOFZSdr7mui194Qq26uKu/r4evUXdizLOWy9eCc8m6xpihZ8Hc7dHXxsXn6O7Rwe/bljxb7+DUYN75uuiSsuvcavRpVK3jV/wqohi9dAyjiEA801EccLYh95BLU1NAYwU8XYivMYOhLYzt4zYIRADtIXsaOgUBxVfqwVKCMolwcL4lOZxGRCd7kEDqvp8iUmjyupkbQ4k54FOz6B4rx5EGhIPc1Y6pz1B13KeS2zShwKriEpjtWs1SybVKnRZFLfeNu5EEnabO/C2gV7F+o4tAYp3rw7SmlZp9BgiSwKkanajmey2jmMmFvhvVDTNav1FK5VwYYvy101UqpEm3YD06xbOpYTSvoenhIKkwyzwp5p0e4XsHMrVLFf56LXmmlulFqEF999cjWU5T/wMn8O/bnz6NSrz5hu3UIBADs%3D">
+</div>
+<div id="email">
+<img alt="Phone Number" style="height: 20px; margin: 0;" src="data:image/gif;base64,R0lGODlhwgAYAIABAAAAAP///yH5BAEKAAEALAAAAADCABgAAAL+jI+py+0Po5y02ouz3rz7D4biSJbmCQGlirYuCLCSHMTxYtPKfehO7gMmhBHbw4jg7XyvHrKYJDpzDaWBuXxOrTUZF9djaLtfarOK3UWnTnZWffyJdd/1NZiud8/oIo3uNRS0JxhXNVd4mJSIiJN2psfo2DdEaDeHNXb3lwfY9pP52BS5CEoZZlmKWWYWxULKpUSaeskn2agoVnk3CVrXupXiuQf8uWTba3p6rPoruon5djT8xIqLbLwMp6tKy+unraJ5yxM7zIydfb3Ljar+DZVb40ZWTn0Of4s96+0O5grE3IRHXji9MiOQVkJ06frpuyJnWrIUERUSZLcwX61bdPzmbYPoz+PDZyHZWVSWygqedftImpNSb5y3SLIYrdT4T6Q7axORBZS4pVVAPTwdaYIJkCSZVYKA/WxIQWkHqVCr8qGaAavVrS60VvDKNawJsPHEmj2LNu2DAgA7"> 
+<br/>
+<a href="MAILTO:" id="email-url"><img alt="Email Address" style="height: 20px; margin: 0;" src="data:image/gif;base64,R0lGODlhwgAYAIABAAAAAP///yH5BAEKAAEALAAAAADCABgAAAL+jI+py+0Po5y02ouz3rz7D4aiA5TmGJWIirauy67Au8QnjWczvTN9rogBhxAh6ucjJozKpuyFDNxm0SHTeTD9VDdpN/tdasW2co/LMqbTMuH67B4/wcWwN27o2ul3LXW3NicnRpgHJ3jCNmeYx+c35sfoxXe3WHMoOdn3N1WFp7mCaDm6hZnJVLqUlan5KVlmebVKmcrqGguI9BhIWcjaWgvaCKY7+3nLK3zrywyMeyk62iu7nAyqRnpmm/tM1g0N7hgsHE0u6+wzjn5abKir/WqqnIpc9du7Pt8waG7v7q+v3LV25FqRGefK2jJpvxSqu9fQDcRw/bbhk3cN37SVWrA27ruihpvHIB+D8ALYTKLFhhsBhUrXreNKmLOUjYS4S2QbPbtouaw0kJhOY9oU/ZNTLx6VmfP4dbpZ8GjPgweRlnoXBVIubP+6Dstp9c1WoGEx8iO20+tZKTUseGqC8uVbLFaSULAX90iKYSTpApl7ty0WlPBU+f2b1W1iuiAf5j0M4pGOSJCnmlwLObPmzZwxFAAAOw%3D%3D">
+</a>
+</div>
+<div id="title">GREGORY TOURVILLE</div> <br/>
+<br clear="all"/>
+<!--<hr/>-->
+</div>
+<hr/><h3>EDUCATION</h3><hr class="pad-bottom"/>
+<img alt="Rose-Hulman Institute of Technology Seal" width="87" height="84" style="float: left; margin: 14px 6px 16px 6px; padding: 1px;" src="data:image/png;base64,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%3D%3D">
+<div class="spacer"></div>
+<h4>Rose-Hulman Institute of Technology</h4> &ndash; <div style="display: inline;">Terre Haute, Indiana</div>  
+<div class="right" style="font-style: normal;">Awarded May 31<span class="sup">st</span>, 2014 &nbsp;&nbsp;</div>
+<br/>
+<span style="font-style: italic;">Bachelor of Science in Computer Science</span>  
+<div class="right" style="font-style: normal;">&nbsp; GPA 2.87 &nbsp;&nbsp;</div> 
+<br/>  
+<h4>Relevant Coursework: </h4><br/>
+<div style="padding-left: 1em;">
+Theory of Computation, Compiler Construction, Software Design and Development, Data Structures and Algorithms, 
+Programming Language Concepts, Artificial Intelligence, Neural Networks, 
+Speech Recognition, Speech Articulation and Acoustics, Cryptography, Natural Language Processing,
+Graph Theory and Topics in Discrete Math. <br/>
+</div>
+<br clear="all"/>
+<hr/><h3>EXPERIENCE</h3><hr class="pad-bottom"/>
+<h4>Software Engineer</h4> &ndash; High Voltage Software
+<div class="right">January 2015 &ndash; Present</div><br/>
+Hoffman Estates, IL      
+<img alt="High Voltage Software Logo" width="88" height="66" style="float: right; margin: 8px 2px 0px 0px;" src="data:image/gif;base64,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%3D%3D">
+<ul>
+<li>- Writing and developing video game software targeting the Microsoft Xbox 360 and Sony Playstation 3, as well as the PC.<br/>
+<li>- Working on game engine and gameplay programming for a high-profile video game title.<br/>
+<li>- Currently involved in game development using the Unreal Engine 3.<br/>
+</ul>
+<br/>
+<h4>Software Engineering Developer</h4> &ndash; Green Hills Software, Santa Barbara, CA
+<div class="right">July 2014</div><br/>
+<ul>
+<li>- Worked with the MULTI compiler and development tools on embedded software for real-time applications.<br/>
+</ul>
+<br/>
+<h4>Software Developer</h4> &ndash; Fog Creek Software, New York City
+<div class="right">June 2012</div><br/>
+<ul>
+<li>- Developed features for the online organization board Trello to improve user experience. <br/>
+</ul>
+<br/>
+<h4>Computer Science Researcher</h4> &ndash; University of Aizu &ndash; CLR Phonetics Lab
+<div class="right">May 2011 &ndash; November 2011</div><br/>
+Aizuwakamatsu, Japan
+<img alt="The University of Aizu Emblem" width="80" height="80" style="float: right; margin: 8px 6px 0px 0px;" src="data:image/png;base64,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%3D%3D">
+<ul>
+<li>- Researched linguistics in order to teach pronunciation and develop teaching tools.<br/>
+<li>- Developed a system to animate 3D speech movements in real-time for English speech using ultrasound video and computer graphics.<br/>
+<li>- Used OpenCV and C++ for image processing and Blender and Python for 3D animation while studying specialized algorithms for contour mapping.<br/>
+<li>- Attempted to improve existing algorithms by increasing the speed, accuracy, and ability to run unsupervised.<br/>
+<li>- Developed 3D assets while also investigating the uses of facial motion tracking. The goal was to create a solution that was of very high accuracy.<br/>        
+</ul>
+<br/>
+<h4>Computer Programmer</h4> &ndash; eV Interactive LLC
+<div class="right">June &ndash; August 2007, 2008, 2009<br/>
+March &ndash; May 2011</div><br/>
+Arlington Heights and Palatine, IL <br/>
+<img alt="eV Interactive LLC Logo" width="76" height="76" style="float: right; margin: 8px 6px 0px 0px; border: 2px solid black;" src="data:image/gif;base64,R0lGODlhWgBaAKECAAAAAF9fX////////yH5BAEKAAMALAAAAABaAFoAAAL+hI+py+0Po5y02ouz3js4rwUgR14jcDZpyUIisrZyCMZz+5qGfZNnKsr1houcEPUbKYmy3y4YPCxhzApv9xB6gFVKrCaZdjGr1/H6QY9V2+cnUV67VKgJTy1XbNuMKLafZ4V0BAPFV0cVSAcHVjSIF0bU+HRl6IdkAdkBh7nXFyAQKjpKukJ6qmknZYRF+LdzKnoXG9qjNDWZOBLLtkUq2ekmCPBblDIKyBF1iShmTIxMGRNty9WYpFdTjFkkmtxR5vTaCfRruCDrCP4tjLh6eSp9HHrb5ZptiRD/WCPi7RJHCr9llgqaOQdlUDyDKP5JYxSMUEA9vcQsK/XwhUP+W9ncUTzIzIC5cyLp4UvFTtW7ZfqQsYJVS+C9TBOBaJkZpdiZjcoM+vwJ1NJIQzxB2uQUKRG5n+OgUYNhEke4oz9pCUjo1JvQmORwcGu2Esoof2MVDiUrYI68lyvbhUWYriU9sWXpppUZ9NC7gfmAPoUZM8i2koGNoHyGFGyCsotdaowmOLDMMOJWeVzb5i/gu3K5OvXy5U5eIdt2xe3MGdTVVj4st9lTcDOcwahhVgoJmm9Vh5GL9o7J20xX2GcodnSdk5rq03p+8UwWlM3XVlvp8WJkhBYeTxJnDlK3yurqCFabLi2+95PhmYwBTbv+jKSz234IEn0++X1p427+5Es8SRIVOk3lji8YKdWMK8JRVkh9hHlWzlXM7IOPMGd4wh8l2C1IW3Zz/UDbRwR9p1d6ESSElmdIyIJQihiK+JZRxF2T4SOxpJhWP7DF5d9oKGLHTYtGNSReVLr9g1t/M/5Xgmk36iKcaoXQAZR56v1xyEFE+lYVGLj5WAdOkhAnEBXdaakjVggm1eA9twQI3iUBxqaMMXAm2J95L76lm5VecEJmhdPFGN9luWwSo4+KLqomonjdGShEh6aH4p3fZcLapbqEOeNkdiZ22UMm5PDchWUiJZojNmg5qi+JiVOpM+7kmBKQKBkmmWlAiooORHb86GusCdWynIQmXWW4LCj+SFksNB6sZp2xKu6qxoL6wMLsXchqK5aU0UIjErbWgbuIn4+CWBIx6S7nqkjPPsvNeJylRS9+5b4BD7fKEkMWFlzlCC0fq+1LLrGV+Gqcmv/U+y5h8B5g3bMm7RuVvMyF8Miv4L2hSDB5HNYkyLXyJ7KjoYK6MaYd6+XdqR331PLLQ+w5skoyh3qHyYqIVvLNnwDksj0yx/ynnz2H7JHIR1fBxck+z7y0zyU+PabKVNsTtQQFAAA7">
+<ul>
+<li>- Worked on problems in physics simulation, AI, procedural graphics, and game programming. <br/>
+<li>- Credited in four published titles: Ride! Carnival Tycoon, John Deere: Drive Green, 
+Shimano Xtreme Fishing, and Remington Super Slam Hunting Alaska.<br/>
+<li>- Began porting the graphics engine from DirectX to OpenGL and related platforms.<br/>
+<li>- Developed a skeletal animation system using C++ for better performance using in-house technology.<br/>
+<li>- Improved features and functionality of video game software. <br/>
+</ul>
+<br/>
+<h4>Software Engineering Intern</h4> &ndash; Rose-Hulman Ventures
+<div class="right">September 2009 &ndash; August 2010</div><br/>
+Terre Haute, IN
+<img alt="Rose-Hulman Ventures Logo" width="77" height="60" style="float: right; margin: 8px 6px 0px 0px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAA8CAYAAAAjdzfUAAAByUlEQVR42u1Z0Q7DIAgEsw/3z9nD0qVr5oZW5VBIfHFddh53gB1RRHUwEQkABnXICS9/7lPrfgUIJiJKtaAtQ3IWDQG1+3wjuWK4VIQJ0Xsd35XL+rdPP/a1+FiZHHObjrAlN2JLO9uyNZnpTlHuzU3xk0xEOavqUu1+i/ofYB1VrkC/qUxLALfUAcVjiPaUr4RdlNbDrq2ResxOk+vb4ddbdr3TlLi5zkwh51NlclHbWX0duyW3Ks1ccQchRVtWEjbDnhh3vDMxBfKK+wNsWask0/tpyZYtdu3hKq3SGFF9GsK2s2eN+oqqHCCKGtJgmsIvW75uEJko5yGEtSiNoW1ZeAbBnuzCljoCeRZpcCPJTMLukOZi6B2GodflGm2GG3nuHoqRnQjrht1qveP1CqnLfxGzGoFdfWObn+bOioNutttfoyzdkFCBbZMBUJuyB9KQiBtyvl1qmgulIaiNPZJmSdzQc4U9QccEWe1Ms2YrWUgE0+y51OC7Uk1jWlQBssI50qpqCHuCJcIq8+IZf9pFHSuBF4/YUyTbH2kcGZtjUw7S6oiDwBuvhhaoKeIBK2IhFnScYc+FWr44wAhPXERERERERITreAL0+QJ+LUJMhQAAAABJRU5ErkJggg%3D%3D">
+<ul>
+<li>- Communicated with clients to write and test software by completing milestones. <br/>
+<li>- Worked on a compiler targeting C from MIB files for embedded network applications 
+by improving unit tests, enhancing functionality, and supporting features. <br/>
+<li>- Ensured standards compliance for a common protocol by reviewing RFC files. <br/>
+</ul>
+<br/>
+<h4>Tutor</h4> &ndash; Homework Hotline
+<div class="right">September 2009 &ndash; December 2010</div><br/>
+Terre Haute, IN 
+<img alt="Homework Hotline Logo" width="94" height="38" style="float: right; margin: 8px 0px 0px 0px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAmCAYAAABNoyzCAAACcElEQVRo3u1ay24DIQy0V3vrrf//Wf2VXnqhh4gKOfiJybIplqJWCQt4GI8NLMC2bX0r5R29wnuBjmhvj0v7duxIadvXz78GPgJchOmvA/uGjLdKTG1X/0qAXgP4hRrvcZYCTgHWWF7K4zdrrohGjT8nLQa8xWFvAvWCWRcrg0R8P+f6MtJrPxI1M0ljJ8V5L9BfUSpWALU8MTaHBRhPOAVQOnp4sSRGojIxubagVDB6QFGwahsKIP1e6qsAFG0B6Py4/nq/5yyuPT+ckhMeRyPPK4xAaRxuMTMijRLBNoavND3o4PUzwiaLc9z/nsW1zg8fNMSo3NG58nOyS9LUDZQ8yRjAWltJQjjw6cJwxOLH9W/EhpMrp9ujIFsd15huGdcSzdn54BjVw9nPjkhEtlTy82lLT9tRxJmps8lnGZgpedG2dJH4ooHW/fLxAXonFw3nLPniqh0ri3vz13IGtyDxSgcxdQPlWTyP5lqSo1aC9p7tPTe2iesB3a90zplS0dbBkUiwOKstRqTfmMz5bsuODOczkpcGlMTYBQ46yPGCXs+fXjB89e1zH56Qv4/RgzUT0fITWEwXe5ce7XdP+vkNAJ8A+GPfwHD9tUe63CWLRUrsZ/+uOt5aNXi36Lpetg79hfIHAHzJjloYyN1ySe218Rx1fCRp5uut94JDY+2Mca3zkqUnVNXM0eJS5oIiypZjzNF7WSPwr0t4HmCyWeqRCo808aw/1yvNJEnxvlkWZap0r8v144uAhd+raR1BtCfOrPvYGW8wdMrJbZFyN77YxwZ2VPdjEbYZP1R14cid8raxc5ltF7N/27Zt25azX879W0JSYCCCAAAAAElFTkSuQmCC">
+<ul>
+<li>- Assisted 6th through 12th grade students with math and science homework over the phone.<br/>
+<li>- Helped Indiana students and other students from around the country.<br/>
+</ul>
+<br/>
+<hr/><h3>PROJECT WORK</h3><hr class="pad-bottom"/>
+<h4>Rose-Hulman Institute of Technology</h4>
+<ul>
+<li>- Researched techniques for porting large game engine source code to multithreaded architectures.
+<li>- Developed a social media website similar to Facebook and MySpace using Java servlets on a team of four.<br/>
+<li>- Wrote a minimal Java compiler targeting 16-bit MIPS with a team of two.<br/>
+<li>- Created a content aggregation system for multiple social media websites on smart phones.<br/>
+<li>- Created a website using MySQL as a backend database with a team of three.<br/>
+<li>- Researched methods for applying natural language processing to searching text-based sources.<br/>
+</ul>
+<br/>
+<h4>Independent Project Work</h4>
+<ul>
+<li>- Developed the Team-Duck game engine for the PC, Sony PSP, and WebGL browser platforms.<br/>
+<li>- Developed the Duck Programming Language <a href="http://ducklang.org">(www.ducklang.org)</a><br/>
+<li>- See my GitHub page for code samples: <a href="http://github.com/gregtour">https://github.com/gregtour/</a><br/>
+</ul>
+<br/>
+<hr/><h3>SKILLS</h3><hr class="pad-bottom"/>
+<ul>
+<li>&bullet; Proficient in C/C++, Java,  Python and JavaScript programming.<br/>
+<li>&bullet; Familiar with HTML 5, CSS, PHP, assembly language, Lua, Scheme, Common Lisp, SVN, AJAX, SQL, 
+Node.JS, OpenCV, OAUTH 2.0, DirectX and OpenGL, Markov models, TCP/IP and UDP networking, game development, 
+embedded software development, and web development.<br/>
+</ul>
+<br/>
+<hr/><h3>HONORS AND AWARDS</h3><hr class="pad-bottom"/>
+<div style="float: left;">Theodore Paine Palmer Award</div>
+<div style="float: right;">National Merit Scholarship</div>
+<div style="margin: 0 auto; position: relative; width: 420px; text-align: center;">Mathematical Contest in Modeling</div>
+<div class="spacer"></div>
+</div> 
+</body>
+</html>
